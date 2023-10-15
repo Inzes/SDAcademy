@@ -1,4 +1,4 @@
-package Junit;
+package junit;
 
 public class OrderCalculator {
     public double calculateTotal(double itemPrice, int itemCount, double taxRate, double discount){

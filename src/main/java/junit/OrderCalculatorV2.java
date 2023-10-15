@@ -1,15 +1,17 @@
-package Junit;
+package junit;
 
 public class OrderCalculatorV2 {
-    public double calculateTotal(double itemPrice, int itemCount, double taxRate, double discount, double discountThreshold) {
-        double totalPrice = itemPrice * itemCount;
+    public double calculateTotal(double itemPrice, int itemCount, double taxRate,
+                                 double discount, double discountThreshold) {
 
+        double totalPrice = itemPrice * itemCount;
+        totalPrice *= (1 + taxRate);
 
         if (totalPrice > discountThreshold) {
             totalPrice -= discount;
 
         }
-        totalPrice *= (1+taxRate);
+
         return totalPrice;
     }
         public static void main (String[]args){
