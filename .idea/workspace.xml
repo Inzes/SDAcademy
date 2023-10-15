@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d736c4ad-5d9a-469b-9ba4-34321ae47dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/Example4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/junit/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junit/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -71,8 +72,8 @@
       <recent name="junit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Example4">
-    <configuration name="Example3.testArrayEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CalculatorTest.testDivide_byZero_ShouldReturnNegativeOne">
+    <configuration name="CalculatorTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -81,14 +82,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="junit" />
-      <option name="MAIN_CLASS_NAME" value="junit.Example3" />
-      <option name="METHOD_NAME" value="testArrayEqual" />
+      <option name="MAIN_CLASS_NAME" value="junit.CalculatorTest" />
+      <option name="METHOD_NAME" value="testAdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example3.testAssertSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testDivide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +98,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="junit" />
-      <option name="MAIN_CLASS_NAME" value="junit.Example3" />
-      <option name="METHOD_NAME" value="testAssertSame" />
+      <option name="MAIN_CLASS_NAME" value="junit.CalculatorTest" />
+      <option name="METHOD_NAME" value="testDivide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testDivide_byZero_ShouldReturnNegativeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.CalculatorTest" />
+      <option name="METHOD_NAME" value="testDivide_byZero_ShouldReturnNegativeOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,22 +132,6 @@
       <option name="PACKAGE_NAME" value="junit" />
       <option name="MAIN_CLASS_NAME" value="junit.Example3" />
       <option name="METHOD_NAME" value="testAssertSameForString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example3.testAssertTrueFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit" />
-      <option name="MAIN_CLASS_NAME" value="junit.Example3" />
-      <option name="METHOD_NAME" value="testAssertTrueFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.testDivide_byZero_ShouldReturnNegativeOne" />
+        <item itemvalue="JUnit.CalculatorTest.testDivide" />
+        <item itemvalue="JUnit.CalculatorTest.testAdd" />
         <item itemvalue="JUnit.Example4" />
         <item itemvalue="JUnit.Example3.testAssertSameForString" />
-        <item itemvalue="JUnit.Example3.testAssertSame" />
-        <item itemvalue="JUnit.Example3.testArrayEqual" />
-        <item itemvalue="JUnit.Example3.testAssertTrueFalse" />
       </list>
     </recent_temporary>
   </component>
