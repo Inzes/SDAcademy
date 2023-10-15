@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d736c4ad-5d9a-469b-9ba4-34321ae47dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/Example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/Example4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,22 +71,7 @@
       <recent name="junit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Example3.testAssertSameForString">
-    <configuration name="Example3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit" />
-      <option name="MAIN_CLASS_NAME" value="junit.Example3" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Example4">
     <configuration name="Example3.testArrayEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -151,13 +136,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Example4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.Example4" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Example4" />
         <item itemvalue="JUnit.Example3.testAssertSameForString" />
         <item itemvalue="JUnit.Example3.testAssertSame" />
         <item itemvalue="JUnit.Example3.testArrayEqual" />
         <item itemvalue="JUnit.Example3.testAssertTrueFalse" />
-        <item itemvalue="JUnit.Example3" />
       </list>
     </recent_temporary>
   </component>
