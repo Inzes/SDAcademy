@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d736c4ad-5d9a-469b-9ba4-34321ae47dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/Example1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/Example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/Example3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/junit/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junit/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/junit/OrderCalculatorV2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit/OrderCalculatorV2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,10 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,34 +71,8 @@
       <recent name="junit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderCalculatorV2Test.testCalculateTotal">
-    <configuration name="OrderCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="junit.OrderCalculator" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderCalculatorV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="junit.OrderCalculatorV2" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Example3.testAssertSameForString">
+    <configuration name="Example3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -107,13 +81,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="junit" />
-      <option name="MAIN_CLASS_NAME" value="junit.Example2" />
+      <option name="MAIN_CLASS_NAME" value="junit.Example3" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderCalculatorV2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Example3.testArrayEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -122,13 +96,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="junit" />
-      <option name="MAIN_CLASS_NAME" value="junit.OrderCalculatorV2Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="junit.Example3" />
+      <option name="METHOD_NAME" value="testArrayEqual" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderCalculatorV2Test.testCalculateTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Example3.testAssertSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +112,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="junit" />
-      <option name="MAIN_CLASS_NAME" value="junit.OrderCalculatorV2Test" />
-      <option name="METHOD_NAME" value="testCalculateTotal" />
+      <option name="MAIN_CLASS_NAME" value="junit.Example3" />
+      <option name="METHOD_NAME" value="testAssertSame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example3.testAssertSameForString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.Example3" />
+      <option name="METHOD_NAME" value="testAssertSameForString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example3.testAssertTrueFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.Example3" />
+      <option name="METHOD_NAME" value="testAssertTrueFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderCalculatorV2Test.testCalculateTotal" />
-        <item itemvalue="Application.OrderCalculatorV2" />
-        <item itemvalue="JUnit.Example2" />
-        <item itemvalue="JUnit.OrderCalculatorV2Test" />
-        <item itemvalue="Application.OrderCalculator" />
+        <item itemvalue="JUnit.Example3.testAssertSameForString" />
+        <item itemvalue="JUnit.Example3.testAssertSame" />
+        <item itemvalue="JUnit.Example3.testArrayEqual" />
+        <item itemvalue="JUnit.Example3.testAssertTrueFalse" />
+        <item itemvalue="JUnit.Example3" />
       </list>
     </recent_temporary>
   </component>
