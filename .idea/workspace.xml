@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d736c4ad-5d9a-469b-9ba4-34321ae47dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit/OrderCalculatorV2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit/Example2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Junit/OrderCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junit/OrderCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Junit/OrderCalculatorV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junit/OrderCalculatorV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/junit/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junit/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junit/OrderCalculatorV2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit/OrderCalculatorV2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +19,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="Inzes/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -46,7 +59,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -84,16 +98,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Example2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.Example2" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.OrderCalculatorV2Test.testCalculateTotal" />
-        <item itemvalue="JUnit.OrderCalculatorV2Test" />
         <item itemvalue="Application.OrderCalculatorV2" />
+        <item itemvalue="JUnit.Example2" />
+        <item itemvalue="JUnit.OrderCalculatorV2Test" />
         <item itemvalue="Application.OrderCalculator" />
-        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +176,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="Inzes/master" />
                       </list>
                     </value>
                   </entry>
